@@ -1,0 +1,79 @@
+body .background-mobil {
+    display: none;
+}
+body .background-desktop-top {
+    background-image: url(../assets/bg-pattern-top-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 548px;
+    height: 362px;
+    position: absolute;
+}
+body .background-desktop-bottom {
+    background-image: url(../assets/bg-pattern-bottom-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1085px;
+    height: 673px;
+    position: absolute;
+}
+main {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main .container-one {
+    width: 1110px;
+    max-height: 245px;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 71px;
+}
+main .container-one .container-img {
+    width: 540px;
+    height: 220px;
+    justify-content: center;
+}
+main .container-one .container-img .container-background .container-center {
+    flex-direction: row;
+    column-gap: 32.45px;
+}
+main .container-one .container-img .container-background {
+    max-width: 445px;
+    height: 56px;
+}
+main .container-one .container-img .container-background.two {
+    align-self: center;
+}
+main .container-one .container-img .container-background.three {
+    align-self: end;
+}
+main .container-one .container-text {
+    max-width: 445px;
+    max-height: 245px;
+    justify-content: space-between;
+    text-align: start;
+}
+main .container-one .container-text h1 {
+    font-size: calc(56rem / 16);
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+main .container-two {
+    max-width: 1110px;
+    height: 266px;
+}
+main .container-two .container-background {
+    max-width: 350px;
+    max-height: 234px;
+}
+main .container-two .container-background.two {
+    align-self: center;
+}
+main .container-two .container-background.three {
+    align-self: end;
+}

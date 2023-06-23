@@ -1,0 +1,137 @@
+:root {
+    --purple-t-b: hsl(300, 43%, 22%);
+    --pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta-p: hsl(303, 10%, 53%);
+    --grey-background: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'League Spartan', sans-serif;
+}
+body {
+    overflow-y: hidden;
+}
+body .background-mobil {
+    background-image: url(./assets/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 374px;
+    height: 232px;
+    position: absolute;
+}
+main {
+    padding-top: 82px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 49px;
+}
+main .container-one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 39px;
+    text-align: center;
+}
+main .container-one .container-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+main .container-one .container-text h1 {
+    font-size: calc(40rem / 16);
+    color: var(--purple-t-b);
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.429px;
+}
+main .container-one .container-text p {
+    font-size: calc(19rem / 16);
+    color: var(--Dark-Grayish-Magenta-p);
+    line-height: 25px;
+    letter-spacing: -0.633px;
+    font-weight: 500;
+}
+
+main .container-one .container-img {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+main .container-one .container-img .container-background {
+    background-color: var(--grey-background);
+    padding: 16px 66px 15px 76px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container-one .container-img .container-background .container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15.23px;
+}
+main .container-one .container-img .container-background .container-center p {
+    width: 185px;
+    font-size: calc(17rem / 16);
+    color: var(--purple-t-b);
+    font-weight: 700;
+}
+main .container-one .container-img .container-background .container-center .container-stars {
+    width: 116px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container-two {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+main .container-two .container-background {
+    background-color: var(--purple-t-b);
+    border-radius: 8px;
+    color: var(--White);
+    padding: 43px 32px 35px 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+main .container-two .container-background .container-text {
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+}
+main .container-two .container-background .container-text img {
+    width: 40px;
+    border-radius: 50%;
+}
+main .container-two .container-background .container-text .container-name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+main .container-two .container-background .container-text .container-name .name {
+    font-size: calc(17rem / 16);
+    font-weight: 700;
+}
+main .container-two .container-background .container-text .container-name .verified {
+    font-size: calc(17rem / 16);
+    color: var(--pink);
+}
+main .container-two .container-background p {
+    font-size: calc(17rem / 16);
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.304px;
+}

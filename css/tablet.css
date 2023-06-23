@@ -1,0 +1,4 @@
+main .container-two {
+    flex-direction: row;
+    column-gap: 30px;
+}
