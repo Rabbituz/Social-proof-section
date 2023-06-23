@@ -15,7 +15,7 @@ html {
     font-family: 'League Spartan', sans-serif;
 }
 body {
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 body .background-mobil {
     background-image: url(./assets/bg-pattern-top-mobile.svg);
