@@ -18,6 +18,8 @@ body .background-desktop-bottom {
     width: 1085px;
     height: 673px;
     position: absolute;
+    bottom: 0;
+    right: 0;
 }
 main {
     padding: 0;
